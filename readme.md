@@ -12,7 +12,7 @@ _Output_: Valid classes: 'Gun'
 
 ## Data Preparation   
   1. Converted text annotations into xml annotations then these xml annotations are used to generate tf records.
-  2. used <data__prep_notebook data_preprocessing.ipynb> to generate the xml files.
+  2. used [DATA PREPROCESSING](data_preprocessing.ipynb) to generate the xml files.
 
 ## Training data 
 
@@ -26,7 +26,7 @@ Trained the model with batch size 2 and total steps of 5000 steps which means ou
 
 
 ## Training instructions: 
-    Followed the same instruction mentioned in TFOD2 API doc, link provided above.
+ Trained model using instructions provided in [TFOD2 API](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/)
 
 
 
@@ -35,11 +35,11 @@ Trained the model with batch size 2 and total steps of 5000 steps which means ou
  
 Following is the screenshot for model evaluation on 20 test images.
 
- <img src = "files/modeal_eval.png" height="320" width="320"/> 
+ <img src = "files/modeal_eval.png" height="320" width="520"/> 
 
 
 ## Inference:
-Model Inference is written in <Inference_Notebook inference.ipynb>
+Model Inference is written in [INFERENCE NOTEBOOK](inference.ipynbb)
 
 
 ### Testing instructions 
@@ -48,4 +48,4 @@ Model Inference is written in <Inference_Notebook inference.ipynb>
 
 2.Install dependencies using requirements.txt file
 
-3.Use <Inference_Notebook inference.ipynb> to test the model on different images.
+3.Use [INFERENCE NOTEBOOK](inference.ipynbb) to test the model on different images.
