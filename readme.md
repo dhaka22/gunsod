@@ -44,7 +44,8 @@ For detailed training process we can follow instructions provided in [TFOD2 API]
  
 Following is the screenshot for model evaluation on 20 test images.
 
-For our model Average Presion for IOU 0.5 is .22, as we can see our AP is very less, as the quality of the images provided is very low and few objects have multiple class and very cluttered data, we can improve the map by colleting more good quality data. and overall training data is also very less so gathering mode data can help boosting the mAP.
+For our model Average Presion for IOU 0.5 is .22, as we can see our AP is very less, as the quality of the images provided is very low and few objects have multiple guns object in a very cluttered way, we can improve the map by colleting more good quality dat.
+the  overall training data is also very less so gathering mode data can help boosting the mAP. 
 
 Detailed Evaluation matrix screenshot can be found below:
 
