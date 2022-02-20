@@ -1,0 +1,29 @@
+
+                    <annotation>
+                      <filename>/home/ganesh/Desktop/deepak/gun_od/train/images/train/306.jpeg</filename>
+                      <size>
+                          <width>300</width>
+                          <height>168</height>
+                          <depth>3</depth>
+                      </size>
+                      <segmented>0</segmented>
+                              <object>
+                                  <name>Gun</name>
+                                  <bndbox>
+                                      <xmin>74</xmin>
+                                      <ymin>8</ymin>
+                                      <xmax>136</xmax>
+                                      <ymax>93</ymax>
+                                  </bndbox>
+                              </object>
+                              <object>
+                                  <name>Gun</name>
+                                  <bndbox>
+                                      <xmin>172</xmin>
+                                      <ymin>71</ymin>
+                                      <xmax>222</xmax>
+                                      <ymax>100</ymax>
+                                  </bndbox>
+                              </object>
+                    </annotation>
+                
