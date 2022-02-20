@@ -35,11 +35,11 @@ Trained the model with batch size 2 and total steps of 5000 steps which means ou
  
 Following is the screenshot for model evaluation on 20 test images.
 
- <img src = "files/modeal_eval.png" height="320" width="520"/> 
+ <img src = "files/modeal_eval.png" height="720" width="1080"/> 
 
 
 ## Inference:
-Model Inference is written in [INFERENCE NOTEBOOK](inference.ipynbb)
+Model Inference is written in [INFERENCE NOTEBOOK](inference.ipynb)
 
 
 ### Testing instructions 
@@ -48,4 +48,4 @@ Model Inference is written in [INFERENCE NOTEBOOK](inference.ipynbb)
 
 2.Install dependencies using requirements.txt file
 
-3.Use [INFERENCE NOTEBOOK](inference.ipynbb) to test the model on different images.
+3.Use [INFERENCE NOTEBOOK](inference.ipynb) to test the model on different images.
